@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantilla</title>
+    <title>Lucas Nápoli</title>
 
     <!-- Hoja de estilos -->
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
 </head>
+
 <body class="body">
     <!-- <div class="container">
         <div class="row justify-content-center align-items-center minh-100">
@@ -21,7 +24,8 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark navbar-expand-md py-md-4 px-md-5">
         <a class="navbar-brand" href="#">👨‍💻</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,7 +37,7 @@
                     <a class="nav-link" href="#aboutme">Acerca de mí</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiencia</a>
+                    <a class="nav-link" href="#experience">Experiencia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Proyectos</a>
@@ -42,7 +46,8 @@
                     <a class="nav-link" href="#">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link button-one" target="_blank" href="https://drive.google.com/file/d/1Y7OcAB6r8OmLk71FXiT2JsB_KWE16hcn/view?usp=sharing">Curriculum</a>
+                    <a class="nav-link button-one" target="_blank"
+                        href="https://drive.google.com/file/d/1Y7OcAB6r8OmLk71FXiT2JsB_KWE16hcn/view?usp=sharing">Curriculum</a>
                 </li>
             </ul>
         </div>
@@ -52,23 +57,49 @@
         <section class="padding-home minh-100" id="home">
             <h1 class="mono pre-name">Hola, mi nombre es </h1>
             <h2 class="name">Lucas Nápoli</h2>
-            <h3 class="post-name">Desarrollador web. Bienvenido a mi portfolio.</h3>
+            <h3 class="post-name">Desarrollador web.</h3>
         </section>
 
         <!-- ACERCA DE MI -->
-        <section id="aboutme">
+        <section id="aboutme" class="mb-5">
             <h2 class="title">Acerca de mí</h2>
             <div class="row">
-                <p class="description col-8">Desde el comienzo trabajé junto a un mentor en un proyecto en el que participé activamente aportando mejoras ya sea de funcionalidad como de diseño para el mejor uso del usuario. Luego de dos meses y demostrar independencia, trabajo de manera individual en el proyecto. Durante este tiempo mantuve comunicación constante con el cliente para la mejora e implementación de funcionalidades y gestión del proyecto. Actualmente, le estoy enseñando a un nuevo compañero.</p>
-                <div class="col-4">
-                    <img src="https://avatars.githubusercontent.com/u/72548102" alt="Foto de Lucas Nápoli" class="image" >
+                <p class="description col-sm-8">Desde el comienzo trabajé junto a un mentor en un proyecto en el que
+                    participé activamente aportando mejoras ya sea de funcionalidad como de diseño para el mejor uso del
+                    usuario. Luego de dos meses y demostrar independencia, trabajo de manera individual en el proyecto.
+                    Durante este tiempo mantuve comunicación constante con el cliente para la mejora e implementación de
+                    funcionalidades y gestión del proyecto. Actualmente, le estoy enseñando a un nuevo compañero.</p>
+                <div class="col-sm-4" style="text-align: center;">
+                    <img src="https://avatars.githubusercontent.com/u/72548102" alt="Foto de Lucas Nápoli"
+                        class="image rounded">
                 </div>
-
             </div>
         </section>
 
         <!-- EXPERIENCIA -->
-        
+        <section id="experience" class="mb-5">
+            <h2 class="title">Experiencia</h2>
+            <div>
+                <h3 class="title-work">Desarrollador web
+                    <span class="company">@
+                        <a target="_blank" href="https://argentina.practia.global/">Practia Global</a>
+                    </span>
+                </h3>
+                <p class="mono">Mayo 2021 - Actualidad</p>
+                <p><strong>Desarrollando proyectos con tecnologías:</strong></p>
+                <ul>
+
+                    <li type="circle">.NET Core - .NET 5</li>
+                    <li type="circle">TypeScript, Angular 10</li>
+                    <li type="circle">HTML, CSS, JavaScript, Bootstrap</li>
+                    <li type="circle">Manejo de SQL, SQL Server</li>
+                    <li type="circle">Python</li>
+                    <li type="circle">Microsoft Azure</li>
+
+                </ul>
+            </div>
+        </section>
+
     </div>
 
 
@@ -76,6 +107,11 @@
 <!-- Archivo de scripts -->
 <script src="./scripts/main.js"></script>
 <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
 </html>

@@ -10,22 +10,23 @@
 
 .body {
     background-color: #101722;
-    color: #95918a;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    color: #8892b0;
+    ;
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
 }
 
 .mono {
-    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
 
 .button-one {
-    color: #78d7c0!important;
+    color: #78d7c0 !important;
     border: 1px solid #247d67;
     border-radius: 5px;
 }
 
-.title{
+.title {
     color: #a3b5ca;
     font-size: 30px;
     font-weight: bold;
@@ -37,7 +38,7 @@
     width: 700px;
 }
 
-.image{
+.image {
     width: 250px;
 }
 
@@ -48,12 +49,12 @@
     color: #AEFEFF;
 }
 
-#navbarNav ul .active{
+#navbarNav ul .active {
     font-weight: bold;
 }
 
-#navbarNav ul li .nav-link{
-    color:#a3b5ca;
+#navbarNav ul li .nav-link {
+    color: #a3b5ca;
     padding: .5rem 1rem;
 }
 
@@ -65,14 +66,48 @@
 
 .name {
     font-size: 80px;
-    color: #a3b5ca;
+    color: #ccd6f6;
 }
 
-.post-name{
+.post-name {
     font-size: 24px;
+
 }
 
 .padding-home {
     padding: 10rem 5rem;
 }
 
+/* EXPERIENCE */
+
+.title-work {
+    font-size: 20px;
+}
+
+.company {
+    color: #64ffda;
+}
+
+.container a {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.container a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #64ffda;
+}
+
+.container a:hover {
+    color: #64ffda;
+    background-size: 100% 2px;
+}
+
+ul {
+    margin-left: 2rem;
+}
