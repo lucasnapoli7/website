@@ -75,8 +75,14 @@
 }
 
 .padding-home {
-    padding: 10rem 5rem;
+    padding: 6rem 1rem;
 }
+
+@media (min-width: 768px) { 
+    .padding-home{
+        padding: 10rem 5rem;
+    }
+ }
 
 /* EXPERIENCE */
 
