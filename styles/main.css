@@ -187,12 +187,17 @@ a:active {
 ul {
     margin-left: 2rem;
 }
+.experience-detail{
+    text-align: justify;
+    font-size: 18px;
+}
 
 /* PROYECTO */
 
 .proyect-card{
     overflow: hidden;
     margin-bottom: 20px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
 .proyect-card img {
@@ -249,7 +254,7 @@ ul.icons li:hover{
     background-color: rgba(0,0,0, 0.2);
 }
 .icons a{  
-    color: var(--primary-color);
+    color: var(--card-text-color);
 }.icons a:hover{  
     color: var(--primary-color);
 }
@@ -282,5 +287,5 @@ ul.icons li:hover{
     --primary-color: #64ffda;
     --text-color: #a3b5ca;
     --name-color: #ccd6f6;
-    --card-text-color: #46e9c3;
+    --card-text-color: rgba(70,233,195,0.9);
 }
